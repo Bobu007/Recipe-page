@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+b {
+  color: hsl(24, 5%, 18%);
+}
+.main {
+  height: fit-content;
+  background-color: hsl(30, 54%, 90%);
+  padding: 10% 0;
+}
+.container {
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 3%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 32px;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+.content h1 {
+  font-family: Young-Serif;
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.content p {
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.preTime {
+  padding: 25px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 16px;
+}
+
+.preTime ul {
+  list-style-position: inside;
+  line-height: 30px;
+
+  h3 {
+    color: hsl(332, 51%, 32%);
+  }
+
+  li {
+    padding-left: 10px;
+    font-weight: 600;
+  }
+}
+
+.ingredients {
+  margin: 25px 0;
+  border-bottom: 0.5px solid hsl(30, 10%, 34%);
+  padding-bottom: 25px;
+}
+
+.ingredients ul {
+  list-style-position: inside;
+  line-height: 35px;
+  h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: young-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  li {
+    padding-left: 10px;
+    font-weight: 600;
+  }
+}
+.instructions {
+  margin: 25px 0;
+  border-bottom: 0.5px solid hsl(35, 5%, 49%);
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+
+.instructions ol {
+  list-style-position: outside;
+  line-height: 30px;
+  h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: young-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: -20px;
+    margin-bottom: 15px;
+  }
+  li {
+    font-weight: 600;
+    gap: 30px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+.nutrition h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: young-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.nutrition p {
+  margin: 15px 0;
+  font-weight: 600;
+}
+.nutrition table {
+  width: 100%;
+}
+.nutrition tr {
+  border-bottom: 1px solid rgb(171, 170, 170);
+}
+
+.nutrition td {
+  width: 50%;
+  padding: 10px 0;
+}
+.nutrition td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
