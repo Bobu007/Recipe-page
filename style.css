@@ -45,14 +45,13 @@ img {
   background-color: hsl(330, 100%, 98%);
   border-radius: 16px;
 }
+.preTime h2 {
+  color: hsl(332, 51%, 32%);
+}
 
 .preTime ul {
   list-style-position: inside;
   line-height: 30px;
-
-  h3 {
-    color: hsl(332, 51%, 32%);
-  }
 
   li {
     padding-left: 10px;
@@ -65,17 +64,17 @@ img {
   border-bottom: 0.5px solid hsl(30, 10%, 34%);
   padding-bottom: 25px;
 }
-
+.ingredients h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: young-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
 .ingredients ul {
   list-style-position: inside;
   line-height: 35px;
-  h2 {
-    color: hsl(14, 45%, 36%);
-    font-family: young-serif;
-    font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 15px;
-  }
+
   li {
     padding-left: 10px;
     font-weight: 600;
@@ -87,18 +86,19 @@ img {
   padding-bottom: 25px;
   padding-left: 20px;
 }
+.instructions h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: young-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-left: -20px;
+  margin-bottom: 15px;
+}
 
 .instructions ol {
   list-style-position: outside;
   line-height: 30px;
-  h2 {
-    color: hsl(14, 45%, 36%);
-    font-family: young-serif;
-    font-size: 32px;
-    font-weight: 400;
-    margin-left: -20px;
-    margin-bottom: 15px;
-  }
+
   li {
     font-weight: 600;
     gap: 30px;
